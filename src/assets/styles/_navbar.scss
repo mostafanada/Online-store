@@ -1,0 +1,31 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  background-color: #0767f8;
+  padding: 15px;
+  width: 100%;
+  justify-content: space-between;
+  .store-tab {
+    border-bottom: 5px solid #f81010;
+    border-radius: 0 0 5px 5px;
+    a {
+      font-size: 1.2rem;
+      color: #f9f9f9;
+    }
+  }
+  .shop-logo {
+    svg {
+      color: #140202;
+      font-size: 1.8rem;
+    }
+    span {
+      color: rgb(11, 11, 11);
+      font-size: 0.8rem;
+      background-color: #f3181b;
+      padding: 5px;
+      border-radius: 100%;
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+  }
+}

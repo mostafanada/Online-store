@@ -1,0 +1,24 @@
+.product-container {
+  .container {
+    border-radius: 10px;
+    transition: all 0.3s;
+    &:hover {
+      box-shadow: rgba(248, 16, 16, 0.09) 0px 2px 1px,
+        rgba(244, 9, 9, 0.09) 0px 4px 2px, rgba(241, 7, 7, 0.09) 0px 8px 4px,
+        rgba(249, 6, 6, 0.09) 0px 16px 8px, rgba(245, 8, 8, 0.09) 0px 32px 16px;
+      transition: all 0.3s;
+    }
+    img {
+      padding: 8px;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      margin: 0 auto;
+    }
+    h3 {
+      color: #530ce2;
+      padding: 10px;
+      width: 200px;
+    }
+  }
+}
